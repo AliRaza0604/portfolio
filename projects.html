@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="certificates.html">Certificates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects-section">
+            <h1>List of Projects</h1>
+            <label for="tech-filter">Filter by Technology:</label>
+            <select id="tech-filter">
+              <option value="all">All</option>
+              <option value="javascript">JavaScript</option>
+              <option value="python">Python</option>
+              <option value="java">Java</option>
+              <option value="C">C</option>
+              <option value="C++">C++</option>
+              <option value="C#">C#</option>
+              <option value="html">HTML</option>
+              <option value="react">React</option>
+            </select>
+
+            <ul id="project-list">
+              <li id="my-project-1" data-tech="python">
+                <img src="Images/project.jpg" alt="Project 1">
+                <h2>Skin Cancer Classifier</h2>
+                <p>Technology: Python</p>
+                <button class="my-details-button" data-project="project1">
+                    <a href="https://github.com/AliRaza0604/Skin-Cancer-Classifier">View Details</a>
+                </button>
+              </li>
+              <li id="my-project-2" data-tech="python">
+                <img src="Images/project.jpg" alt="Project 2">
+                <h2>Sentiment Classifier</h2>
+                <p>Technology: Python</p>
+                <button class="my-details-button" data-project="project2">
+                  <a href="https://github.com/AliRaza0604/Happy-Sad-Image-Classifier">View Details</a>
+                </button>
+              </li>
+              <li id="my-project-3" data-tech="react">
+                <img src="Images/project.jpg" alt="Project 3">
+                <h2>Small Scall ERP System</h2>
+                <p>Technology: Java</p>
+                <button class="my-details-button" data-project="project3">
+                  <a href="https://github.com/AliRaza0604/erp-frontend">View Details</a>
+                </button>
+              </li>
+            </ul>
+
+
+            <script src="scripts.js"></script>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <nav class="footer-nav">
+            <ul>
+                <li class="social-media-icons">
+                    <a href="https://www.linkedin.com/in/aliraza2000/"><img src="Images/Linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/AliRaza0604"><img src="Images/Github.png" alt="Github"></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>

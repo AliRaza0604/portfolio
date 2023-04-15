@@ -1,0 +1,304 @@
+﻿body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: #222222;
+color: #f2f2f2;
+}
+
+header {
+background-color: #f2f2f2;
+color: #222222;
+padding: 10px;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+nav li {
+margin: 0 10px;
+}
+
+nav a {
+color: #222222;
+text-decoration: none;
+}
+
+main {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.intro {
+text-align: center;
+}
+
+.intro img {
+border-radius: 50%;
+max-width: 200px;
+}
+
+.about-me {
+margin-top: 50px;
+}
+
+.about-me h2 {
+text-align: center;
+}
+
+.about-me p {
+text-align: justify;
+}
+
+
+.site-footer {
+background-color: #f2f2f2; 
+color: #222222;
+padding: 10px;
+text-align: center;
+}
+
+.footer-nav {
+display: flex;
+justify-content: center;
+}
+
+.footer-nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.footer-nav li {
+margin: 0 10px;
+}
+
+.footer-nav a {
+color: #222222;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+}
+
+.footer-nav a:hover {
+text-decoration: underline;
+}
+
+.social-media-icons a {
+display: inline-block;
+margin-right: 10px;
+font-size: 20px;
+color: #f2f2f2;
+transition: color 0.2s;
+}
+
+.social-media-icons a:hover {
+color: #ccc;
+}
+
+.social-media-icons a img {
+width: 25px;
+height: 25px;
+}
+
+
+
+#project-details {
+background-color: #f2f2f2;
+border: 2px solid #000;
+box-sizing: border-box;
+margin: 5% auto;
+max-height: 80%;
+max-width: 80%;
+overflow-y: auto;
+padding: 20px;
+position: relative;
+color: #222222;
+}
+
+#project-details button {
+background-color: #222222;
+border: none;
+color: #f2f2f2;
+font-size: 1.2rem;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+#project-details h2 {
+font-size: 2rem;
+margin: 0 0 10px;
+color: #222222;
+}
+
+#project-details-image {
+display: block;
+margin: 0 auto;
+max-height: 300px;
+max-width: 100%;
+}
+
+#project-details-technology {
+font-weight: bold;
+margin: 10px 0;
+color: #222222;
+}
+
+#project-details-description {
+margin: 10px 0;
+color: #222222;
+}
+
+#project-details-link {
+display: block;
+margin-top: 10px;
+text-align: center;
+color: #222222;
+}
+
+
+
+#project-list {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+list-style: none;
+}
+
+#my-project-list li {
+border: 1px solid #ccc;
+padding: 10px;
+background-color: #f2f2f2;
+color: #222222;
+        
+}
+
+#my-project-list li h2 {
+font-size: 1.2rem;
+margin: 0;
+color: #222222;
+}
+
+#my-project-list li p {
+margin: 0;
+color: #222222;
+}
+
+#my-project-list li button.my-details-button {
+margin-top: 10px;
+background-color: #222222;
+color: #f2f2f2;
+border: none;
+padding: 10px 20px;
+font-size: 1rem;
+font-weight: bold;
+text-transform: uppercase;
+transition: background-color 0.3s ease;
+
+}
+
+.my-details-button a:visited, .my-details-button a {
+    color: #222222;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#my-project-list li button.my-details-button:hover {
+background-color: #f2f2f2;
+color: #222222;
+cursor: pointer;
+}
+
+#my-project-list li img {
+max-width: 100%;
+height: auto;
+display: block;
+margin-bottom: 10px;
+}
+
+
+
+.course-list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+.course {
+background-color: #fff;
+color: #000;
+margin: 10px;
+padding: 10px;
+width: calc(45% - 20px); /* Set width of each card */
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+
+.course:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.course-image {
+width: 100%;
+height: auto;
+}
+
+.course-title {
+font-size: 1.2em;
+font-weight: bold;
+margin: 10px 0;
+}
+
+.course-description {
+font-size: 0.9em;
+margin: 0;
+}
+
+
+
+.certificate-list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+}
+
+.certificate {
+background-color: #fff;
+color: #000;
+margin: 10px;
+padding: 10px;
+width: calc(45% - 20px); /* Set width of each card */
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+
+.certificate:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.certificate-image {
+width: 100%;
+height: auto;
+}
+
+.certificate-title {
+font-size: 1.2em;
+font-weight: bold;
+margin: 10px 0;
+}
+
+.certificate-description {
+font-size: 0.9em;
+margin: 0;
+}
